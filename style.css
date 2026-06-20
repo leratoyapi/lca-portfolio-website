@@ -1,6 +1,5 @@
-/* ==========================================
-   1. RESET & UNIFORM THEME STYLES
-   ========================================== */
+/* 1. RESET and THEME STYLES */
+   
 * {
     margin: 0;
     padding: 0;
@@ -18,9 +17,8 @@ body {
     overflow-x: hidden;
 }
 
-/* ==========================================
-   2. STICKY NAVIGATION BAR
-   ========================================== */
+/* 2. The Navigation bar */
+   
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -66,9 +64,7 @@ body {
     background: rgba(179, 157, 219, 0.05);
 }
 
-/* ==========================================
-   3. UNIFIED HOME SCREEN HERO & BIO BOX
-   ========================================== */
+/* 3. The  Home page  */
 .home-viewport {
     min-height: calc(100vh - 72px);
     display: flex;
@@ -119,9 +115,7 @@ body {
     color: #E2E8F0;
 }
 
-/* ==========================================
-   4. ABOUT PAGE ALIGNED STRUCTURING
-   ========================================== */
+/*4. The About page  */
 .about-main {
     padding: 40px 20px;
 }
@@ -137,7 +131,7 @@ body {
     color: #ffffff;
 }
 
-/* FIX: align-items: stretch perfectly locks the image and text to the exact same height */
+
 .container {
     display: flex;
     max-width: 1200px;
@@ -152,7 +146,7 @@ body {
     box-shadow: 0 20px 45px -12px rgba(0, 0, 0, 0.6);
 }
 
-/* FIX: height: 100% and object-fit: cover forces the image to perfectly fill that stretched height */
+
 .container img {
     width: 350px;
     height: 100%;
@@ -183,9 +177,7 @@ body {
     font-weight: 600;
 }
 
-/* ==========================================
-   5. TECHSTACK STANDALONE ALIGNED CARDS
-   ========================================== */
+/* 5. TechStack page */
 .techstack-main {
     padding: 40px 20px;
 }
@@ -240,9 +232,7 @@ body {
     color: #B39DDB;
 }
 
-/* ==========================================
-   6. REFLECTION SCREEN VIEWPORT ALIGNMENT
-   ========================================== */
+/* 6. The  Reflection page */
 .reflection-main {
     min-height: calc(100vh - 72px);
     display: flex;
@@ -275,11 +265,7 @@ body {
     line-height: 1.95;
 }
 
-/* ==========================================
-   7. CONTACT SCREEN ALIGNED BLOCK PANELS
-   ========================================== */
-
-/* FIX: height: 100vh absolutely forces the North Star to take the entirety of the first screen */
+/*7. The Contact page  */
 .north-star-viewport {
     width: 100vw;
     height: 100vh; 
@@ -318,7 +304,7 @@ body {
     border: 1px solid rgba(179, 157, 219, 0.2);
 }
 
-/* FIX: min-height: 100vh absolutely forces the Forms to take the entirety of the next scroll screen */
+
 .contact-container {
     display: flex;
     max-width: 1200px;
@@ -415,9 +401,7 @@ body {
 }
 
 
-/* ==========================================
-   9. FIXED SCREEN BOTTOM FOOTER
-   ========================================== */
+/* 8. The Footer on the bottom of the page  */
 footer {
     position: fixed;
     bottom: 0;
@@ -431,9 +415,7 @@ footer {
     z-index: 1000;
 }
 
-/* ==========================================
-   10. MOBILE RESPONSIVE QUERIES
-   ========================================== */
+/* 9. Media queries : mobile responsive  */
 @media (max-width: 992px) {
     .container {
         flex-direction: column;
@@ -486,7 +468,7 @@ footer {
 }
 
 /* ==========================================
-   11. BRAND-ALIGNED HEADING STYLING
+   10. BRAND-ALIGNED HEADING STYLING
    ========================================== */
 .brand-heading {
     color: #B39DDB;
@@ -494,7 +476,7 @@ footer {
 }
 
 /* ==========================================
-   12. REORDER FORMS: EXPLORE LEFT, CONTACT RIGHT
+   11. REORDER FORMS: EXPLORE LEFT, CONTACT RIGHT
    ========================================== */
 
 /* Explicitly set row layout on desktop */
@@ -511,10 +493,7 @@ footer {
 .contact-form {
     order: 0; /* optional, just for clarity */
 }
-
-/* ==========================================
-   13. GLOWING SUBMIT BUTTON
-   ========================================== */
+/* 11. Added the glowing button  */
 .glow-button {
     width: 100%;
     padding: 16px 32px;
